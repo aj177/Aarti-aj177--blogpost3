@@ -33,7 +33,7 @@ Blogs such as [We're citibiking to work, not play](http://www.wnyc.org/story/wer
 4. normalized the matrix by dividing remaining observations by LCD
 
 *co-occurence matrix*
-![Screenshot](/Users/Aarti/Desktop/blogpost3/adj_mat.png)
+![Screenshot](adj_mat.png)
 
 
 
@@ -49,7 +49,7 @@ I surmise that birth year is a self-reported category since there were birth yea
 
 ### Segue to Big Data 
 This dataset inlcuded 889,132 rows with 3-5 variables. Encountered several crashes while computing stats and plots in R. Future thinking points: explore solutions to host/compress data. Scary message before computer crash ... 
-![Screenshot](/Users/Aarti/Desktop/blogpost3/scary_msg.png)
+![Screenshot](scary_msg.png)
 
 
 
@@ -64,7 +64,7 @@ This dataset inlcuded 889,132 rows with 3-5 variables. Encountered several crash
 
 
 
-![Screenshot](/Users/Aarti/Desktop/blogpost3/citibike/nbr_sna.png)
+![Screenshot](nbr_sna.png)
 
 As expected, the relatively larger nodes i.e. Kips Bay, Chelsea, Hell's Kitchen, FiDi, East Village, and West Village are in the center; while Sutton Place, Meat Packing District, and Stuy Town are on the edges of the network.
 
@@ -77,9 +77,9 @@ As expected, the relatively larger nodes i.e. Kips Bay, Chelsea, Hell's Kitchen,
 
 3. I wanted to explore the granularity by age group to discern patters if any. To that end, I used loess method for local polynomial regression.
 
-![Screenshot](/Users/Aarti/Desktop/blogpost3/citibike/100ksample_age.png)
+![Screenshot](100ksample_age.png)
 
-![Screenshot](/Users/Aarti/Desktop/blogpost3/citibike/50ksample_age.png)
+![Screenshot](50ksample_age.png)
 
 **Graph 3: Cycle trip duration distribution by sex, by weekday type**
 
@@ -94,11 +94,11 @@ As expected, the relatively larger nodes i.e. Kips Bay, Chelsea, Hell's Kitchen,
 4. Max time male vs female ~100mins vs ~54mins if the data quality is accurate.
 
 
-![Screenshot](/Users/Aarti/Desktop/blogpost3/citibike/trip_sex.png)
+![Screenshot](trip_sex.png)
 
-![Screenshot](/Users/Aarti/Desktop/blogpost3/sum_stats.png)
+![Screenshot](sum_stats.png)
 
 
 ### R script for network graph
 
-![Screenshot](/Users/Aarti/Desktop/blogpost3/network_script.png)
+![Screenshot](network_script.png)
